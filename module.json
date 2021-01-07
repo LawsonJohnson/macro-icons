@@ -2,17 +2,17 @@
   "name": "macro-icons",
   "title": "Macro Icons",
   "description": "Add macro images to dynamic macro links.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "author": "NerfViking",
   "scripts": [],
-  "esmodules": ["link-icons.js"],
-  "styles": ["link-icons.css"],
+  "esmodules": ["main.js"],
+  "styles": ["macro-icons.css"],
   "packs": [],
   "url": "https://gitlab.com/NerfViking/macro-icons",
   "manifest": "https://gitlab.com/NerfViking/macro-icons/-/raw/master/module.json",
-  "download": "https://gitlab.com/NerfViking/macro-icons/-/archive/0.1.2/macro-icons-0.1.2.zip",
+  "download": "https://gitlab.com/NerfViking/macro-icons/-/archive/0.1.3/macro-icons-0.1.3.zip",
   "dependencies": [
     {
         "name": "lib-wrapper"
