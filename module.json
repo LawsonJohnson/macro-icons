@@ -10,9 +10,9 @@
   "esmodules": ["link-icons.js"],
   "styles": ["link-icons.css"],
   "packs": [],
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://gitlab.com/NerfViking/macro-icons",
+  "manifest": "https://gitlab.com/NerfViking/macro-icons/-/raw/0.1.0/module.json",
+  "download": "https://gitlab.com/NerfViking/macro-icons/-/archive/0.1.0/macro-icons-0.1.0.zip",
   "dependencies": [
     {
         "name": "lib-wrapper"
