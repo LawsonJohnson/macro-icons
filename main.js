@@ -4,7 +4,7 @@ Hooks.once('ready', () => {
   if(!game.modules.get('lib-wrapper')?.active && game.user.isGM)
       ui.notifications.error("Module Macro Icons requires the 'libWrapper' module. Please install and activate it.");
 
-  libWrapper.register('macro-icons', 'TextEditor._createEntityLink', function (wrapped, ...args) {
+  libWrapper.register('macro-icons', 'TextEditor._createContentLink', function (wrapped, ...args) {
     const [ match, type, target, name ] = args;
     
     let result = wrapped(...args);
