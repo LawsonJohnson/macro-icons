@@ -1,21 +1,25 @@
 {
-  "name": "macro-icons",
-  "title": "Macro Icons",
-  "description": "Add macro images to dynamic macro links.",
-  "version": "0.1.4",
-  "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "0.8.8",
-  "author": "NerfViking",
-  "scripts": [],
-  "esmodules": ["main.js"],
-  "styles": ["macro-icons.css"],
-  "packs": [],
-  "url": "https://gitlab.com/NerfViking/macro-icons",
-  "manifest": "https://gitlab.com/NerfViking/macro-icons/-/raw/master/module.json",
-  "download": "https://gitlab.com/NerfViking/macro-icons/-/archive/0.1.4/macro-icons-0.1.4.zip",
-  "dependencies": [
-    {
-        "name": "lib-wrapper"
-    }
-  ]
+	"id": "macro-icons",
+	"title": "Macro Icons",
+	"description": "Add macro images to dynamic macro links.",
+	"authors": [{ "id": "LawsonJohnson" }, { "id": "NerfViking" }],
+	"version": "0.1.5",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11"
+	},
+	"esmodules": ["main.js"],
+	"styles": ["macro-icons.css"],
+	"url": "https://github.com/LawsonJohnson/macro-icons",
+	"manifest": "https://github.com/LawsonJohnson/macro-icons/releases/latest/download/module.json",
+	"download": "https://github.com/LawsonJohnson/macro-icons/releases/latest/download/module.zip",
+	"relationships": {
+		"requires": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+			}
+		]
+	}
 }
