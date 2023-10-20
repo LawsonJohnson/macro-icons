@@ -1,9 +1,13 @@
 a.macro-icons-macro-icon-link {
-    display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	height: 1.5rem;
+	vertical-align: middle;
 }
 
 img.macro-icons-macro-icon-img {
-    height: 48px;
-    width: 48px;    
-    vertical-align: middle;
+	border: none;
+	flex: 0;
+	margin-right: 0.2rem;
+	width: 1.3rem;
 }
