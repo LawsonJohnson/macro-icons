@@ -2,7 +2,7 @@
 	"id": "macro-icons",
 	"title": "Macro Icons",
 	"description": "Add macro images to dynamic macro links.",
-	"authors": [{ "id": "LawsonJohnson" }, { "id": "NerfViking" }],
+	"authors": [{ "name": "LawsonJohnson" }, { "name": "NerfViking" }],
 	"version": "0.1.5",
 	"compatibility": {
 		"minimum": "11",
